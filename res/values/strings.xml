@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LTEHelper</string>
+    <string name="info">This Application was designed by TitanROMs to bring stable LTE to the xt901. In the future this User Interface will not be displayed, and the operations of the application will be invisible to the user. Thank you for your patience and thank you for Testing.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="headertext">TitanROM\'s LTEHelper</string>
+    <string name="starttext">Start LTEHelper</string>
+    <string name="stoptext">Stop LTEHelper</string>
+
+</resources>

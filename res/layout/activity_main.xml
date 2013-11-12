@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_view_header"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+  		android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="@string/headertext" />
+<TextView
+        android:id="@+id/information"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="@string/info" />
+        <Button
+        android:id="@+id/start_service"
+        android:layout_marginTop="80dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/starttext"
+        android:layout_below="@+id/text_view_header"
+        android:onClick="onClickStartService" />
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/stoptext"
+        android:layout_below="@+id/start_service"
+        android:onClick="onClickStopService" />
+
+</RelativeLayout>
